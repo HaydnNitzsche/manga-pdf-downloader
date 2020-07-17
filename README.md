@@ -3,7 +3,7 @@ Download manga from [MangaDoom](https://www.mngdoom.com/).
 
 ## Install
 - Download the repo ```git clone https://github.com/HaydnNitzsche/manga-pdf-downloader.git```
-- Call ```makefile```
+- Call ```make``` from within the git repo.
 
 ## How to Use manga-pdf-downloader
 
@@ -15,6 +15,9 @@ Example: ```./manga_pdf_downloader https://www.mngdoom.com/Boku-no-Hero-Academia
 
 ## Output
 Chapters will be downloaded from oldest to newest and placed in a directory named after the manga.
+
+## Notes
+If you make any code changes you will need to call ```make``` again for the executable to register your changes.
 
 ## How it Works
 Using ```lxml```, the DOM of the webpage is parsed and the chapter list is grabbed. The page for each chapter is then visited and all page images downloaded using ```requests```. The images are then added to a PDF by ```reportlab```. Currently, only MangaDoom is supported.
