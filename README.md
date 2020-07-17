@@ -2,8 +2,7 @@
 Download manga from [MangaDoom](https://www.mngdoom.com/). 
 
 ## Install
-- Download the repo ```git clone https://github.com/HaydnNitzsche/manga-pdf-downloader.git```
-- Call ```make``` from within the git repo.
+- Call ```git clone https://github.com/HaydnNitzsche/manga-pdf-downloader.git && cd manga-pdf-downloader && make```
 
 ## How to Use manga-pdf-downloader
 
