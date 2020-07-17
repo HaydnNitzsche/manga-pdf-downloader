@@ -13,7 +13,7 @@ Calls follow the format ```./manga_pdf_downloader url```
 
 Example: ```./manga_pdf_downloader https://www.mngdoom.com/Boku-no-Hero-Academia```
 
-##Output
+## Output
 Chapters will be downloaded from oldest to newest and placed in a directory named after the manga.
 
 ## How it Works
